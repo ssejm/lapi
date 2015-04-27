@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/jmuser/workspace/laravel5/app/Http/routes.php</file>
-            <file>file:/home/jmuser/workspace/laravel5/app/MyModel.php</file>
-            <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/MyController.php</file>
-            <file>file:/home/jmuser/workspace/laravel5/resources/views/hi.blade.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Vehicle.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Maker.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/MakerController.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/VehicleController.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/MakerVehiclesController.php</file>
         </group>
     </open-files>
 </project-private>
