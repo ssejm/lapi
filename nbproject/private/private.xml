@@ -3,10 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Middleware/VerifyCsrfToken.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Requests/CreateVehicleRequest.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/database/seeds/VehicleSeed.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/database/seeds/UsersSeeds.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Requests/CreateMakerRequest.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Middleware/OnceAuth.php</file>
             <file>file:/home/jmuser/workspace/laravel5/app/Http/routes.php</file>
-            <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/VehicleController.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/.env</file>
             <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/MakerController.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/database/seeds/DatabaseSeeder.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/database/seeds/MakerSeed.php</file>
             <file>file:/home/jmuser/workspace/laravel5/app/Http/Controllers/MakerVehiclesController.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/User.php</file>
+            <file>file:/home/jmuser/workspace/laravel5/app/Http/Middleware/Authenticate.php</file>
         </group>
     </open-files>
 </project-private>

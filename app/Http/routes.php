@@ -22,8 +22,23 @@
 
 //Route::get('/{name?}', 'MyController@index');
 
+//ADD VERSIONING
+//Route::group(array('prefix' => 'api/v1.1'), function()
+//{
+
+
 Route::resource('makers', 'MakerController', ['except' => ['create', 'edit']]);
 
 Route::resource('vehicles', 'VehicleController', ['only' => ['index', 'show']]);
 
 Route::resource('makers.vehicles', 'MakerVehiclesController', ['except' => ['edit', 'create']]);
+
+
+//});
+
+
+
+Route::post('oauth/access_token', function()
+{
+    return Response::json(Authorizer::issueAccessToken());
+});

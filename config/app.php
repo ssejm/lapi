@@ -135,6 +135,7 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
+                'Illuminate\Broadcasting\BroadcastServiceProvider',
 
 		/*
 		 * Application Service Providers...
@@ -144,6 +145,10 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+            
+                //OATH 2.0
+                'LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider',
+                'LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider',
 
 	],
 
@@ -163,6 +168,8 @@ return [
 		'App'       => 'Illuminate\Support\Facades\App',
 		'Artisan'   => 'Illuminate\Support\Facades\Artisan',
 		'Auth'      => 'Illuminate\Support\Facades\Auth',
+                //OATH 2.0
+                'Authorizer' => 'LucaDegasperi\OAuth2Server\Facades\Authorizer',
 		'Blade'     => 'Illuminate\Support\Facades\Blade',
 		'Bus'       => 'Illuminate\Support\Facades\Bus',
 		'Cache'     => 'Illuminate\Support\Facades\Cache',

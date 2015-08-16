@@ -13,7 +13,8 @@ class MakerVehiclesController extends Controller {
 
         public function __construct()
         {   //require authentication
-            $this->middleware('auth.basic.once', ['except' => ['index', 'show']]);
+            //$this->middleware('auth.basic.once', ['except' => ['index', 'show']]);
+            $this->middleware('oath', ['except' => ['index', 'show']]);
         }
         
 	/**
@@ -135,7 +136,7 @@ class MakerVehiclesController extends Controller {
             
             if(!$maker)
             {
-                return response()->json(['message' => 'This maker does ot exist',
+                return response()->json(['message' => 'This maker does not exist',
                     'code' => 404], 404);
             }
             
